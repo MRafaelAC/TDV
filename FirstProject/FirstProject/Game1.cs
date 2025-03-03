@@ -9,6 +9,7 @@ namespace FirstProject
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        private SpriteFont font;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -27,6 +28,9 @@ namespace FirstProject
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            font = Content.Load<SpriteFont>("File");
+
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -42,9 +46,13 @@ namespace FirstProject
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
+            _spriteBatch.Begin();
+            _spriteBatch.DrawString(font, "Boas", new Vector2(100, 100), Color.Purple);
+            _spriteBatch.DrawString(font, "Boas Outra Vez", new Vector2(300, 100), Color.Purple);
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }

@@ -24,3 +24,4 @@ C:\Users\Rafael\TDV\FirstProject\FirstProject\obj\Debug\net6.0\refint\FirstProje
 C:\Users\Rafael\TDV\FirstProject\FirstProject\obj\Debug\net6.0\FirstProject.pdb
 C:\Users\Rafael\TDV\FirstProject\FirstProject\obj\Debug\net6.0\FirstProject.genruntimeconfig.cache
 C:\Users\Rafael\TDV\FirstProject\FirstProject\obj\Debug\net6.0\ref\FirstProject.dll
+C:\Users\Rafael\TDV\FirstProject\FirstProject\bin\Debug\net6.0\Content\File.xnb
